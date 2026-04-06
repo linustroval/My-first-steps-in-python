@@ -1,45 +1,41 @@
 # My First Steps in Python
 
-A structured repository documenting my transition from scientific computing in **Fortran** to modern development with **Python**. This project serves as a technical log of my learning path, covering everything from core syntax to advanced data manipulation and engineering applications.
+A collection of basic scripts and exercises marking my start with Python. This repository focuses on building the essential foundations required for **Computational Chemistry** and scientific data processing, transitioning from my previous experience in Fortran.
 
-## 🎯 Project Scope
-The goal of this repository is to demonstrate a deep understanding of Pythonic principles. Instead of just "translating" code from other languages, I focus on leveraging Python’s high-level features for efficiency, readability, and scientific accuracy.
-
----
-
-## 📂 Repository Structure
-
-### 1. Core Logic & Syntax
-Fundamental building blocks of the language, focused on clean code and efficiency.
-* `conditionals.py` & `loops.py`: Control flow and iterative logic.
-* `functions/`: Modular programming and reusable code blocks.
-* `exercises/`: A collection of solved challenges focused on logic and algorithm design.
-
-### 2. Advanced Data Structures
-Exploration of Python's native ability to handle complex data.
-* `list_temperatures.py`: Practical implementation of list operations.
-* `tuples.py` & `dictionaries.py`: Efficient data mapping and immutable sequence handling.
-
-### 3. Scientific Computing & Engineering
-The core of my background, applying Python to solve real-world physical and chemical problems.
-* `ideal_gas_law.py`: Automated calculation of the Ideal Gas Law.
-* `molar_mass.py`: Script for calculating molar masses in chemical compounds.
-* `file_parsing/`: Advanced scripts for reading, cleaning, and processing external data files.
-* `numpy/`: Implementation of multidimensional arrays and vectorization.
-* `Pandas/`: Professional handling of tabular data and statistical analysis.
+## 🎯 Purpose
+The goal is to master the core syntax and basic libraries of Python. These are the "building blocks" needed before moving into complex molecular simulations, electronic structure calculations, or large-scale data analysis.
 
 ---
 
-## 🛠️ Technical Stack
-* **Language:** Python 3.x
-* **Key Libraries:** * **NumPy** (Numerical arrays and linear algebra)
-    * **Pandas** (Data manipulation and analysis)
-* **Methodology:** Transitioning from procedural scientific programming (Fortran) to Pythonic/Object-Oriented approaches.
+## 📂 Repository Contents
+
+### 1. Programming Foundations
+Essential logic for any scientific script:
+* `conditionals.py` & `loops.py`: Basic control flow and iteration.
+* `functions/`: Organization and modularity of code.
+* `exercises/`: General practice problems to reinforce logic.
+
+### 2. Data Handling & Structures
+How Python manages information differently than traditional arrays:
+* `list_temperatures.py`: Basic list manipulation using temperature data.
+* `tuples.py` & `dictionaries.py`: Storing and accessing data using Python's native structures.
+
+### 3. Chemistry & Science Basics
+Initial applications of Python to solve fundamental chemistry and data problems:
+* `ideal_gas_law.py`: A simple script to calculate the Ideal Gas Law.
+* `molar_mass.py`: Basic calculation of molar masses.
+* `file_parsing/`: Initial steps in reading and extracting data from external files (crucial for handling chemical software output).
+* `numpy/`: Introduction to basic array operations.
+* `Pandas/`: Foundations of data frame manipulation for chemical data sets.
 
 ---
 
-## 🚀 Usage & Installation
+## 🛠️ Requirements
+* **Python 3.x**
+* **NumPy** (for basic numerical operations)
+* **Pandas** (for basic table handling)
 
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/linustroval/my-first-steps-in-python.git](https://github.com/linustroval/my-first-steps-in-python.git)
+## 🚀 How to use
+These are standalone scripts. You can run them directly using the terminal:
+```bash
+python ideal_gas_law.py
