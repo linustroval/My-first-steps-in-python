@@ -1,0 +1,4 @@
+--- Center of Mass Calculation ---
+Source file: methane.xyz
+Total Mass: 16.0430 u
+CM Coordinates (x, y, z): [0. 0. 0.]
